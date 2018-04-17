@@ -31,7 +31,7 @@ print("created a view of NOAA historial weather data")
 
 
 print("pulling historical weather from a single zip code")
-weather_json = skafos.engine.query("SELECT * from weather_noaa WHERE zipcode = 22902").result()
+weather_json = skafos.engine.query("SELECT * from weather_noaa WHERE zipcode = 22903").result()
 
 
 # validate a single record
